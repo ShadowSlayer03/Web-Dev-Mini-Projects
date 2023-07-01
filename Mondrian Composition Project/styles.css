@@ -1,0 +1,289 @@
+body{
+    display: grid;
+    place-items: center;
+    background-color: purple;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 40px;
+    text-decoration:underline;
+    text-decoration-color: black;
+}
+.container
+{
+    display:grid;
+    grid-template-rows: repeat(4,150px);
+    grid-template-columns: repeat(4,200px);
+    background-color: blue;
+    height:690px;
+    width: 655px;
+}
+
+  
+  /* Media Query for Phones */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 30px;
+    }
+  
+    .container {
+      width: 90%;
+      max-width: 350px;
+    }
+  
+    #Div4,
+    #Div5 {
+      width: 15vw;
+    }
+  
+    #Div8,
+    #Div9 {
+      width: 15vw;
+    }
+  
+    #Div14,
+    #Div15,
+    #Div19,
+    #Div22,
+    #Div24 {
+      width: 60%;
+    }
+  }
+
+
+
+#Div1
+{
+    border: 10px solid black;
+    width: 220px;
+    height: 150px;
+    background-color: white;
+    border-top: none;
+    border-left: none;
+}
+
+#Div2
+{
+    border: 10px solid black;
+    width: 170px;
+    height: 150px;
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    position: relative;
+    left: 30px;
+}
+
+#Div3
+{
+    border: 10px solid black;
+    width: 201px;
+    height: 150px;
+    background-color: rgb(248,206,46);
+    border-top: none;
+    position: relative;
+    right: 10px;
+}
+
+#Div4
+{
+    border: 10px solid black;
+    height: 150px;
+    width: 45.5px;
+    background-color: white;
+    border-top: none;
+    border-right: none;
+}
+
+#Div5
+{
+    border: 10px solid black;
+    height: 150px;
+    width: 69px;
+    background-color: white;
+    border-left: none;
+}
+
+#Div6
+{
+    border: 10px solid black;
+    height: 300px;
+    width: 310px;
+    background-color: rgb(218,66,42);
+    border-bottom: none;
+    position: relative;
+    right:130px;
+}
+
+#Div7
+{
+    border: 10px solid black;
+    height: 143px;
+    width: 201px;
+    background-color: rgb(248,206,46);
+    border-left: none;
+    position: relative;
+    right:0.7px;
+}
+
+#Div8
+{
+    border: 10px solid black;
+    height: 377px;
+    width: 45.5px;
+    background-color: white;
+    border-right: none;
+}
+
+#Div9
+{
+    border: 10px solid black;
+    height: 225px;
+    width: 69px;
+    background-color: white;
+    border-left: none;
+}
+
+#Div11
+{
+    border: 10px solid black;
+    height: 150px;
+    width: 100.5px;
+    background-color: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    position: relative;
+    top: 12px;
+    right: 1px;
+}
+
+#Div12
+{
+    border: 10px solid black;
+    height: 150px;
+    width: 90px;
+    background-color: white;
+    border-top: none;
+    border-bottom: none;
+    position: relative;
+    top:10px;
+    right: 100px;
+}
+
+ #Div14  
+{
+    border: 10px solid black;
+    height: 140px;
+    width: 130px;
+    background-color: black;
+    position: relative;
+    top:10px;
+    right: 130px;
+}
+
+#Div15
+{
+    border: 10px solid black;
+    height: 67.5px;
+    width: 175px;
+    background-color: white;
+    border-left: none;
+    position: relative;
+    top:10px;
+    right: 185px;
+}
+
+#Div16
+{
+    border: 10px solid black;
+    height: 67px;
+    width: 202px;
+    background-color: white;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    top:10px;
+    right: 200.5px;
+
+}
+
+#Div18
+{
+    border: 10px solid black;
+    height: 151px;
+    width: 69px;
+    background-color:rgb(248,206,46);
+    border-left: none;
+    border-bottom: none;
+    position: relative;
+    bottom: 70px;
+    right: 200px;
+}
+
+
+#Div19
+{
+    border: 10px solid black;
+    height: 62px;
+    width: 175px;
+    background-color: white;
+    border-left: none;
+    position: relative;
+    right: 185px;
+    bottom: 62px;
+}
+
+#Div20
+{
+    border: 10px solid black;
+    height: 145px;
+    width: 200px;
+    background-color: rgb(60, 95,153);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    position: relative;
+    right: 200.5px;
+    bottom: 55px;
+}
+
+#Div21
+{
+    border: 10px solid black;
+    height: 72px;
+    width: 165px;
+    background-color: white;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    position: relative;
+    bottom: 142px;
+    left:79px;
+}
+
+#Div22
+{
+    border: 10px solid black;
+    height: 76.6px;
+    width: 190px;
+    background-color: black;
+    border: none;
+    position: relative;
+    bottom: 110pt;
+    left: 9.5px;
+}
+
+#Div24
+{
+    border: 10px solid black;
+    height: 144.5px;
+    width: 46.7px;
+    background-color: #da4527;
+    border: none;
+    position: relative;
+    bottom: 161pt;
+    left: 9px;
+}
